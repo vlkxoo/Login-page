@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            body {
+                background-color: black;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            #login {
+                color: white;
+                background-color: black;
+                border-color: purple;
+            }
+            #signup {
+                color: white;
+                background-color: black;
+                border-color: purple;
+            }
+            .login {
+                background-color: black;
+                color: white;
+                border-color: purple;
+            }
+            .signup {
+                background-color: black;
+                color: white;
+                border-color: purple;
+            }
+            form {
+                border-color: purple;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <fieldset class="signup">
+                <legend>Sign up</legend>
+                <input type="text" placeholder="First name"><br>
+                <input type="text" placeholder="Second name"><br>
+                <input type="date" placeholder="Date of birth"><br>
+                <input type="text" placeholder="Username"><br>
+                <input type="password" placeholder="Password"><br>
+            </fieldset>
+            <button id="signup">Submit</button>
+        </form>
+        <form>
+            <fieldset class="login">
+                <legend>Login</legend>
+                <input type="text" placeholder="Username">
+                <br>
+                <input type="password" placeholder="Password">
+            </fieldset>
+            <button id="login">Submit</button>
+        </form>
+    </body>
+</html>
